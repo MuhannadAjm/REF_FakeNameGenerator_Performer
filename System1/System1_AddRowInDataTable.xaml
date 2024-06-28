@@ -162,7 +162,7 @@
                       <OutArgument x:TypeArguments="x:Object">[CurrentRow("Meaning of the first name")]</OutArgument>
                     </ui:AssignOperation.To>
                     <ui:AssignOperation.Value>
-                      <InArgument x:TypeArguments="x:String">[in_TransactionItem.SpecificContent("Beverly").ToString]</InArgument>
+                      <InArgument x:TypeArguments="x:Object">[in_TransactionItem.SpecificContent("Meaning of the first name ").ToString]</InArgument>
                     </ui:AssignOperation.Value>
                   </ui:AssignOperation>
                   <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_31">
@@ -186,7 +186,7 @@
                       <OutArgument x:TypeArguments="x:Object">[CurrentRow("Mother's maiden name")]</OutArgument>
                     </ui:AssignOperation.To>
                     <ui:AssignOperation.Value>
-                      <InArgument x:TypeArguments="x:String">[in_TransactionItem.SpecificContent("Mother").ToString]</InArgument>
+                      <InArgument x:TypeArguments="x:Object">[in_TransactionItem.SpecificContent("Mother's Maiden Name ").ToString]</InArgument>
                     </ui:AssignOperation.Value>
                   </ui:AssignOperation>
                   <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_34">
