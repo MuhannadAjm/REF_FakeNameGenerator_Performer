@@ -72,15 +72,18 @@
       "Path": "System1/JWT/JWT_AddData.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "Lastname&Sequence_1",
-        "FirstName&Sequence_2",
-        "CounOfColumnl&Sequence_1",
-        "counter&Sequence_1"
+        "JWT&Sequence_1",
+        "ColumnName&Sequence_1",
+        "Counter&Sequence_1",
+        "NumperOfCloumn&Sequence_1",
+        "FirstName&Sequence_1",
+        "Lastname&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [
-        "io_Data",
+        "in_CounOfColumnl",
+        "in_NumperOfClaimType",
         "in_NumperOfValue",
-        "in_NumperOfClaimType"
+        "io_Data"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
@@ -89,10 +92,10 @@
       "Path": "Framework/Process.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "out_dt_Identity&Sequence_2",
         "GUID&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [
+        "io_DataTble",
         "in_TransactionItem",
         "in_Config"
       ],
@@ -167,14 +170,14 @@
       "Path": "System1/GUID/GUID_guidgenerator.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "DayOfBirthday&Sequence_2",
-        "DayOf&Sequence_2",
-        "selectLine&Sequence_2",
+        "NumberOfDay&Sequence_2",
+        "NewText&Sequence_2",
         "OutText&Sequence_2",
-        "lines&Sequence_2"
+        "DayOfBirthday&Sequence_2"
       ],
       "ArgumentsSectionElementsOrder": [
-        "out_GUID",
+        "io_Datatabel",
+        "GUID",
         "in_Birthday"
       ],
       "ConstantsSectionElementsOrder": [],
@@ -193,9 +196,18 @@
     {
       "Path": "System1/System1_AddRowInDataTable.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [
-        "dt_Identity&Sequence_1"
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_DataTabel",
+        "in_TransactionItem"
       ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "System1/GUID/GUID_Close.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
